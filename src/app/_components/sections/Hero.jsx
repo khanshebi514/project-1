@@ -8,8 +8,8 @@ export default function Hero() {
   return (
     <section className="w-full">
       <div className="container">
-        <div className="bg-[#E7FAFE] rounded-3xl flex justify-between items-center">
-          <div className="left-section w-full md:w-[50%] px-10 ">
+        <div className="bg-[#E7FAFE] rounded-3xl grid grid-cols-1 md:grid-cols-2 content-middle">
+          <div className="left-section px-10">
             <div className=" flex items-center gap-2 bg-slate-50 rounded-full p-2 w-[150px]">
               <Image
                 src="/home/image 14.png"
@@ -30,12 +30,12 @@ export default function Hero() {
               </p>
 
               <div className="flex items-center gap-5 mt-5">
-                <div className=" flex justify-center items-center gap-2 bg-blue-100 rounded-full p-2 w-[150px]">
+                <div className=" flex justify-center items-center gap-2 bg-blue-100 rounded-full p-2 w-[160px]">
                   <PiTimerFill size={20} />
                   <p className="text-paragraph">30 minutes</p>
                 </div>
 
-                <div className=" flex justify-center items-center gap-2  bg-blue-100 rounded-full p-2 w-[150px]">
+                <div className=" flex justify-center items-center gap-2  bg-blue-100 rounded-full p-2 w-[160px]">
                   <MdDinnerDining size={20} />
                   <p className="text-paragraph">Chicken</p>
                 </div>
@@ -68,7 +68,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="right-section w-full md:w-[50%]">
+          <div className="right-section flex justify-center items-center">
             <Image
               src="/home/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png"
               width={600}

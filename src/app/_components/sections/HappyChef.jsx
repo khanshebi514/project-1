@@ -3,8 +3,9 @@ import Button from "../ui/button";
 
 export default function HappyChef() {
   return (
-    <section className="container flex justify-between items-center">
-        <div className="w-full md:w-[50%]">
+    <section className="container">
+      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="">
             <div className="w-[80%] flex flex-col gap-10 ">
             <h1 className="medium-heading font-semibold text-[20px] sm:text-[28px] md:text-[38px] ">
             Everyone can be a
@@ -19,7 +20,7 @@ export default function HappyChef() {
             </div>
         </div>
 
-        <div className="w-full md:w-[50%] relative">
+        <div className="relative overflow-hidden">
             <div className="bg-lily-white w-full h-[80%] absolute -z-10 top-[20%] rounded-3xl">
 
             </div>
@@ -29,6 +30,8 @@ export default function HappyChef() {
             <Image src="/home/categories/image 28.png" alt="an-onion"  className="absolute left-[75%] top-[15%]" width={50} height={50}/>
             <Image src="/home/portrait-happy-male-chef-dressed-uniform 1.png" alt="portrait-happy-male-chef-dressed" width={660} height={597}/>
         </div>
+      </div>
+       
     </section>
   )
 }

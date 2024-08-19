@@ -14,7 +14,7 @@ export default function SocialShare() {
         <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et <br />dolore magna aliqut enim ad minim </p>
       </div>
 
-      <div className="mt-[50px] flex justify-between items-center gap-10 p-3">
+      <div className="mt-[50px] flex justify-between flex-wrap lg:flex-nowrap items-center gap-10 p-3">
         {
           instaPostaData.map((item)=>
             <InstagramPostCard key={item.key} data={item}/>

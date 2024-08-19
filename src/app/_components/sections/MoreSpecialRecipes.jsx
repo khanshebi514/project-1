@@ -7,7 +7,7 @@ export default function MoreSpecialRecipes() {
   return (
     <section className="">
       <div className="container">
-        <div className="flex justify-between items-center my-5 mb-10">
+        <div className="flex justify-between items-center flex-wrap gap-5 my-5 mb-10">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold font-inter">
             Try this delicious recipe to make your day
           </h1>
@@ -17,7 +17,7 @@ export default function MoreSpecialRecipes() {
           </p>
         </div>
 
-        <div className="flex justify-between items-center flex-wrap gap-x-3 gap-y-7 my-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-3 gap-y-7 my-10 justify-items-center">
           {moreRecipes.map((item) => (
             <Link
               href={item.title}

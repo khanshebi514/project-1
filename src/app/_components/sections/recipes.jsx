@@ -14,7 +14,7 @@ export default function Recipes() {
             yummy recipes...
           </p>
         </div>
-        <div className="flex justify-between flex-wrap gap-10 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-5 my-10">
           {recipesItem.map((item) => (
             <Link
               key={item.key}

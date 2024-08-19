@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer>
         <div className="container">
-        <div className="flex justify-between items-start">
+        <div className="flex justify-between items-start flex-col md:flex-row gap-5 md:gap-0">
             <div>
                 <Image src={'/navbar/foodieland logo.png'} alt="foodiland logo" width={100} height={50}/>
                 <p className="mt-5">Lorem ipsum dolor sit amet, consectetuipisicing elit, </p>
@@ -26,7 +26,7 @@ export default function Footer() {
         <div className="w-full h-[1px] bg-[#0000002a] my-8"></div>
         <div className="flex justify-items-end items-start">
 
-            <p className="w-[60%] text-end">@2020 flowbase, Powered by <span className="text-[red]">Webflow</span></p>
+            <p className="w-[60%] text-start md:text-end">@2020 flowbase, Powered by <span className="text-[red]">Webflow</span></p>
             <div className="social-icons flex justify-end items-center gap-10 w-[40%]">
                 <FaFacebookF/>
                 <FaXTwitter/>
