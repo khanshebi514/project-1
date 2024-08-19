@@ -8,9 +8,9 @@ export default function Hero() {
   return (
     <section className="w-full">
       <div className="container">
-        <div className="bg-[#E7FAFE] rounded-3xl grid grid-cols-1 md:grid-cols-2 content-middle">
-          <div className="left-section px-10">
-            <div className=" flex items-center gap-2 bg-slate-50 rounded-full p-2 w-[150px]">
+        <div className="bg-[#E7FAFE] rounded-3xl grid grid-cols-1 md:grid-cols-2 content-middle mt-3">
+          <div className="left-section px-10 py-3">
+            <div className="flex items-center gap-2 bg-slate-50 rounded-full p-2 w-[150px]">
               <Image
                 src="/home/image 14.png"
                 alt="foodie menu icon"

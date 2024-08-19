@@ -1,11 +1,12 @@
+import Image from "next/image";
 import Button from "../ui/button";
 
 export default function NewsLetter() {
   return (
     <section className="">
-      <div className="container">
-        <div className="bg-[#E7F9FD] rounded-3xl flex justify-center items-center flex-col p-5">
-          <div className="w-full md:w-[50%] flex justify-center items-center flex-col gap-5 my-10">
+      <div className="container overflow-hidden">
+        <div className="bg-[#E7F9FD] rounded-3xl flex justify-center items-center flex-col relative">
+          <div className="w-full md:w-[50%] flex justify-center items-center flex-col gap-5 my-[100px]">
             <h1 className="medium-heading text-center">Deliciousness to your inbox</h1>
             <p className="text-center">
               Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
@@ -26,6 +27,13 @@ export default function NewsLetter() {
               </Button>
             </div>
           </div>
+          
+          <div className="w-full hidden lg:flex justify-between items-center absolute top-[52%]">
+          <Image src="/home/kisspng-salad-salad-fresh-food-healthylife-vegetables-vegetarian-5d42e3a7cb8543 1.png" alt="this is side image" width={200} height={200}/>
+          <Image src="/home/Photo-plate.png" alt="this is side image" width={200} height={200} />
+          </div>
+          
+
         </div>
       </div>
     </section>
