@@ -4,7 +4,7 @@ import Button from "../ui/button";
 export default function HappyChef() {
   return (
     <section className="container">
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 place-items-center overflow-hidden">
       <div className="">
             <div className="w-[80%] flex flex-col gap-10 ">
             <h1 className="medium-heading font-semibold text-[20px] sm:text-[28px] md:text-[38px] ">
@@ -20,7 +20,7 @@ export default function HappyChef() {
             </div>
         </div>
 
-        <div className="relative overflow-hidden">
+        <div className="relative">
             <div className="bg-lily-white w-full h-[80%] absolute -z-10 top-[20%] rounded-3xl">
 
             </div>

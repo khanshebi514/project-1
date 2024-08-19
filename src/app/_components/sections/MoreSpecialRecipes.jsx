@@ -7,7 +7,7 @@ export default function MoreSpecialRecipes() {
   return (
     <section className="">
       <div className="container">
-        <div className="flex justify-between items-center flex-wrap gap-5 my-5 mb-10">
+        <div className="flex justify-between items-center flex-wrap md:flex-nowrap gap-5 my-5 mb-10 md:my-[100px]">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold font-inter">
             Try this delicious recipe to make your day
           </h1>

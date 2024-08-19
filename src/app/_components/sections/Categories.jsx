@@ -14,7 +14,7 @@ export default function Categories() {
                 </Button>
             </div>
 
-            <div className="flex justify-center flex-wrap items-center gap-2 mt-5">
+            <div className="flex justify-between flex-wrap items-center gap-2 mt-5">
                 {categoriesItem.map((item)=>
                     <CategoriesCard key={item.key} iconUrl={item.iconURL} title={item.title} background={item.background}/>
                 )}

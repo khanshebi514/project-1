@@ -26,7 +26,7 @@ export default function Hero() {
                We have
                 something for everyone. Explore our wide variety of chicken
                 recipes and find the perfect dish to suit your taste and
-                occasion. Don't miss out—check out our selection today!
+                occasion. Do not miss out—check out our selection today!
               </p>
 
               <div className="flex items-center gap-5 mt-5">

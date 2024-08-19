@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function Footer() {
   return (
     <footer>
-        <div className="container">
+        <div className="container py-10">
         <div className="flex justify-between items-start flex-col md:flex-row gap-5 md:gap-0">
             <div>
                 <Image src={'/navbar/foodieland logo.png'} alt="foodiland logo" width={100} height={50}/>
