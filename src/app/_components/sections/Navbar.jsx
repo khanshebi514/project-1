@@ -11,7 +11,7 @@ export default function Navbar() {
                <Link href='/'> <Image src="/navbar/foodieland logo.png" alt="foodieland logo image" width={100} height={50}/></Link>
             </div>
 
-            <ul className="flex justify-center items-center gap-5">
+            <ul className="hidden md:flex justify-center items-center gap-8">
                 <Link className="link-text" href="/">Home</Link>
                 <Link className="link-text" href="/recipes">Recipes</Link>
                 <Link className="link-text" href="/blog">Blog</Link>

@@ -1,4 +1,5 @@
 import Categories from "./_components/sections/Categories";
+import Footer from "./_components/sections/Footer";
 import HappyChef from "./_components/sections/HappyChef";
 import Hero from "./_components/sections/Hero";
 import MoreSpecialRecipes from "./_components/sections/MoreSpecialRecipes";
@@ -18,6 +19,7 @@ export default function Home() {
       <SocialShare/>
       <MoreSpecialRecipes/>
       <NewsLetter/>
+      <Footer/>
     </main>
   );
 }
